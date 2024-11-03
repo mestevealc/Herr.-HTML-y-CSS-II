@@ -1,0 +1,22 @@
+.about {
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 40px 20px;
+
+  .content {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 30rem;
+      margin-right: 20px;
+      border-radius: $card-radius;
+    }
+
+    p {
+      flex: 1;
+      font-size: 1rem;
+      line-height: 3;
+    }
+  }
+}

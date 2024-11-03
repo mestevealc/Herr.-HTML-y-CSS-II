@@ -1,0 +1,26 @@
+.gastronomy {
+  padding: 40px 20px;
+  background-color: $primary-color;
+  color: $text-color;
+
+  h2 {
+    text-align: center;
+  }
+
+  .dishCard {
+    background-color: $secondary-color;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: $card-radius;
+
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+  }
+}

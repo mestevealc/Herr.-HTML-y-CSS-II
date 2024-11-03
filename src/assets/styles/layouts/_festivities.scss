@@ -1,0 +1,33 @@
+.festivities {
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 40px 20px;
+
+  h2 {
+    text-align: center;
+  }
+
+  .festivity {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: lighten($primary-color, 10%);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .festivity {
+      text-align: center;
+    }
+  }
+}
