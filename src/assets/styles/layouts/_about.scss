@@ -19,4 +19,15 @@
       line-height: 3;
     }
   }
+
+  @media (max-width: 768px) {
+    .content {
+      display: block;
+      text-align: center;
+
+      img {
+        margin: 0 auto 20px;
+      }
+    }
+  }
 }

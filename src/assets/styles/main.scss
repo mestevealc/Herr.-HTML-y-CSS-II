@@ -28,6 +28,9 @@
 @import "layouts/about";
 @import "layouts/gastronomy";
 @import "layouts/places";
+@import "layouts/festivities";
+@import "layouts/map";
+@import "layouts/gallery";
 @import "layouts/footer";
 
 /**
@@ -38,44 +41,3 @@
 $primary-color: #013840;
 $secondary-color: #1b3a4b;
 $text-color: #ffffff;
-
-// // About Section
-// .about {
-//   background-color: $primary-color;
-//   color: $text-color;
-//   padding: 40px 20px;
-//   .content {
-//     display: flex;
-//     align-items: center;
-//     img {
-//       width: 150px;
-//       margin-right: 20px;
-//       border-radius: 10px;
-//     }
-//     p {
-//       flex: 1;
-//     }
-//   }
-// }
-
-// // Places Section
-// .places {
-//   padding: 40px 20px;
-//   .cards {
-//     display: grid;
-//     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-//     gap: 20px;
-//     .card {
-//       background-color: $secondary-color;
-//       color: $text-color;
-//       padding: 20px;
-//       border-radius: 10px;
-//       text-align: center;
-//       img {
-//         width: 100%;
-//         border-radius: 10px;
-//         margin-bottom: 10px;
-//       }
-//     }
-//   }
-// }

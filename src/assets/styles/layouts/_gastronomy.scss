@@ -11,6 +11,7 @@
     background-color: $secondary-color;
     padding: 20px;
     margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: $card-radius;
 
     h3 {
@@ -21,6 +22,12 @@
     p {
       font-size: 0.9rem;
       line-height: 1.4;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .dish-card {
+      text-align: center;
     }
   }
 }
