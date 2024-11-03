@@ -23,20 +23,20 @@
   @media (max-width: 768px) {
     .content {
       display: flex;
-      flex-direction: column; // Cambia a columna para móviles
+      flex-direction: column;
       align-items: center;
       text-align: center;
     }
 
     img {
-      width: 80%; // Ajusta el ancho al 80% para pantallas móviles
-      max-width: 15rem; // Tamaño máximo de la imagen para evitar que sea demasiado grande
+      width: 80%;
+      max-width: 15rem;
     }
 
     p {
-      width: 90%; // Limita el ancho del párrafo en móviles
+      width: 90%;
       margin: 0 auto;
-      padding: 0 10px; // Añade padding lateral para mejor espaciado
+      padding: 0 10px;
     }
   }
 }
