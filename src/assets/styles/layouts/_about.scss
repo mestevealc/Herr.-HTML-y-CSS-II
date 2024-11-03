@@ -22,12 +22,21 @@
 
   @media (max-width: 768px) {
     .content {
-      display: block;
+      display: flex;
+      flex-direction: column; // Cambia a columna para móviles
+      align-items: center;
       text-align: center;
+    }
 
-      img {
-        margin: 0 auto 20px;
-      }
+    img {
+      width: 80%; // Ajusta el ancho al 80% para pantallas móviles
+      max-width: 15rem; // Tamaño máximo de la imagen para evitar que sea demasiado grande
+    }
+
+    p {
+      width: 90%; // Limita el ancho del párrafo en móviles
+      margin: 0 auto;
+      padding: 0 10px; // Añade padding lateral para mejor espaciado
     }
   }
 }
